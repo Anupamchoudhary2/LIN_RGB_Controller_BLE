@@ -13,7 +13,7 @@ This project scans text and QR codes from images.
 ## Installation
 Steps to install:
 
-git clone [https://github.com/your-username/project-name.git](https://github.com/Anupamchoudhary2/LIN_RGB_Controller_BLE.git)
+git clone [https://github.com/Anupamchoudhary2/LIN_RGB_Controller_BLE.git](https://github.com/Anupamchoudhary2/LIN_RGB_Controller_BLE.git)
 
 ## Usage
 How to run:
