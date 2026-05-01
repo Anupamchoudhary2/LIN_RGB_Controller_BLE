@@ -79,6 +79,8 @@ void loop() {
     else if(cmd=="ORANGE"){colorIndex=5; currentMode=STATIC; ledEnabled=true;}
     else if(cmd=="PURPLE"){colorIndex=6; currentMode=STATIC; ledEnabled=true;}
     else if(cmd=="CYAN"){colorIndex=7; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="PINK"){colorIndex=8; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="MAGENTA"){colorIndex=9; currentMode=STATIC; ledEnabled=true;} 
     
     else if(cmd=="JUMP3"){currentMode=JUMP3; ledEnabled=true;}
     else if(cmd=="FADE3"){currentMode=FADE3; ledEnabled=true;}
