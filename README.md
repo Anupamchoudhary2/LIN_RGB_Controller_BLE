@@ -14,21 +14,19 @@ This project scans text and QR codes from images.
 Steps to install:
 
 git clone https://github.com/your-username/project-name.git
-cd project-name
-pip install -r requirements.txt
 
 ## Usage
 How to run:
 
-python main.py
+main.cpp
 
 ## Tech Stack
-- Python
-- OpenCV
-- EasyOCR
+- LIN Communication
+- Y17 Light engine 1A
+- Bluetooth + IR
 
 ## Author
-Your Name
+Anupam Choudhary
 
 ## License
 MIT License
