@@ -27,7 +27,7 @@ unsigned long lastEffect = 0;
 // ==== Colors ====
 const uint8_t colors[][3] = {
   {255,0,0}, {0,255,0}, {0,0,255}, {255,255,255}, 
-  {255,255,0}, {255,165,0}, {211,130,198}, {93,180,255},{0,255,255}, {255,0,255}
+  {255,255,0},{255,0,255}, {0,255,255}, {255,165,0}, {211,130,198}, {93,180,255},
 };
 #define NUM_COLORS 10  
 
@@ -76,11 +76,11 @@ void loop() {
     else if(cmd=="BLUE"){colorIndex=2; currentMode=STATIC; ledEnabled=true;}
     else if(cmd=="WHITE"){colorIndex=3; currentMode=STATIC; ledEnabled=true;}
     else if(cmd=="YELLOW"){colorIndex=4; currentMode=STATIC; ledEnabled=true;}
-    else if(cmd=="ORANGE"){colorIndex=5; currentMode=STATIC; ledEnabled=true;}
-    else if(cmd=="PURPLE"){colorIndex=6; currentMode=STATIC; ledEnabled=true;}
-    else if(cmd=="CYAN"){colorIndex=7; currentMode=STATIC; ledEnabled=true;}
-    else if(cmd=="PINK"){colorIndex=8; currentMode=STATIC; ledEnabled=true;}
-    else if(cmd=="MAGENTA"){colorIndex=9; currentMode=STATIC; ledEnabled=true;} 
+    else if(cmd=="MAGENTA"){colorIndex=5; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="CYAN"){colorIndex=6; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="ORANGE"){colorIndex=7; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="PURPLE"){colorIndex=8; currentMode=STATIC; ledEnabled=true;}
+    else if(cmd=="PINK"){colorIndex=9; currentMode=STATIC; ledEnabled=true;} 
     
     else if(cmd=="JUMP3"){currentMode=JUMP3; ledEnabled=true;}
     else if(cmd=="FADE3"){currentMode=FADE3; ledEnabled=true;}
